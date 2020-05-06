@@ -48,7 +48,7 @@ jobs:
         name: release
         path: ./release.zip
   
-docker-kernel-masterdata-service:
+  docker-kernel-masterdata-service:
     needs: build
 
     runs-on: ubuntu-latest
